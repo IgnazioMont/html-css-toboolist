@@ -1,7 +1,58 @@
 /*RESET*/
 * {
+    font-family: 'Rubik', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8f9;
+}
+
+/* TITLE + LOGO */
+header {
+    background-color: white;
+    padding: 20px;
+    height: 90px;
+}
+
+img, h1 {
+    display: inline;
+    vertical-align: middle;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+
+section {
+    background-color: white;
+    width: 900px; /*o usare la percentuale*/
+    padding-left: 50px;
+    padding-top: 20px;
+    margin: auto;
+}
+
+.one {
+    margin-top: 40px;
+    margin-bottom: 3px;
+    height: 60px;
+}
+
+.one a {
+    padding: 10px;
+    text-decoration: none;
+}
+#active {
+    color: white;
+    background-color: rgb(95, 158, 231);
+    border-radius: 8px;
+}
+#inactive {
+    color: gray;
+    border: 1px solid gray;
+    border-radius: 8px;
 }
 
