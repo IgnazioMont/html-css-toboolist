@@ -28,11 +28,13 @@ h1 {
 
 
 section {
+    font-weight: 450;
     background-color: white;
     width: 900px; /*o usare la percentuale*/
     padding-left: 50px;
     padding-top: 20px;
     margin: auto;
+    border-radius: 15px;
 }
 
 .one {
@@ -74,7 +76,7 @@ li h3 {
 
 li .entity {
     vertical-align: middle;
-    font-size: 30px;
+    font-size: 35px;
 }
 
 /* Entity SPUNTA della sottolista */
@@ -93,9 +95,12 @@ li .check_mark {
     text-align: center;
     line-height: 20px;
 }
+
 li span {
     margin: 5px;
 }
+
+/* Entity X della sottolista */
 li .X_mark {
     /*per creare il cerchio attorno all'entity*/
     width: 25px;
