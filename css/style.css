@@ -54,6 +54,7 @@ section {
 #active {
     color: white;
     background-color: rgb(95, 158, 231);
+    border: 1px solid rgb(95, 158, 231);
     border-radius: 8px;
 }
 #inactive {
